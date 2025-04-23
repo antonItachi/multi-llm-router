@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Compiled / built files
+*.out
+*.o
+*.a
+*.exe
+
+# vLLM or model-specific data
+*.safetensors
+*.pt
+*.bin
+*.ckpt
+
+# Docker artifacts
+*.tar
+*.img
+docker/*.cache
+docker/*/cache/
+
+# Project-specific
+.vllm_downloads/
+vllm/
+
+
+# Ignore potential secrets
+*.env
+.env.*
+token_*
+
+# Optional
+*.idea/
